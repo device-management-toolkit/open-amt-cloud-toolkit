@@ -43,6 +43,7 @@ az group create --name openamt --location eastus
 az deployment group create --resource-group openamt --template-file azureDeploy.json
 ```
 
+
 Additional deployments, such as Kubernetes via Azure (AKS) or AWS (EKS), can be found in our [Documentation Site][docs].
 
 ## Additional Resources
